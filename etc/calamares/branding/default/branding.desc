@@ -122,13 +122,13 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         "MY LAST ARCH"
-    shortProductName:    Generic
+    shortProductName:    mylastarch
     version:             2026.5.1
     shortVersion:        2026.5
-    versionedName:       LOKI
+    versionedName:       mylastarch LOKI
     #shortVersionedName:  FancyGL 2023.3
-    bootloaderEntryName: FancyGL
-    productUrl:          https://calamares.io/
+    bootloaderEntryName: mylastarch
+    #productUrl:          https://calamares.io/
     supportUrl:          https://codeberg.org/Calamares/calamares/wiki
     knownIssuesUrl:      https://codeberg.org/Calamares/calamares/issues
     releaseNotesUrl:     https://calamares.io/news/
