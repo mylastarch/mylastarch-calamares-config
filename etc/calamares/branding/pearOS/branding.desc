@@ -121,7 +121,7 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         pearOS NiceC0re
+    productName:         mylastarch Loki
     shortProductName:    pearOS
     version:             26.03
     shortVersion:        26.3
