@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  mylastarch
+componentName:  MY LAST ARCH
 
 
 ### WELCOME / OVERALL WORDING
@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         mylastarch Loki
-    shortProductName:    mylastarch
-    version:             26.03
-    shortVersion:        26.3
-    versionedName:       mylastarch
-    shortVersionedName:  mylastarch
-    bootloaderEntryName: mylastarch Loki
+    productName:         MY LAST ARCH rc1
+    shortProductName:    MY LAST ARCH
+    version:             RC1
+    shortVersion:        RC1
+    versionedName:       MY LAST ARCH
+    shortVersionedName:  MY LAST ARCH
+    bootloaderEntryName: MY LAST ARCH RC1
 
 # These images are loaded from the branding module directory.
 #
