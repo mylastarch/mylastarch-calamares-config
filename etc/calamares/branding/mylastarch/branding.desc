@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  pearOS
+componentName:  mylastarch
 
 
 ### WELCOME / OVERALL WORDING
@@ -122,12 +122,12 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         mylastarch Loki
-    shortProductName:    pearOS
+    shortProductName:    mylastarch
     version:             26.03
     shortVersion:        26.3
-    versionedName:       pearOS
-    shortVersionedName:  pearOS
-    bootloaderEntryName: pearOS NiceC0re
+    versionedName:       mylastarch
+    shortVersionedName:  mylastarch
+    bootloaderEntryName: mylastarch Loki
 
 # These images are loaded from the branding module directory.
 #
