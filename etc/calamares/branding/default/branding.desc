@@ -121,7 +121,7 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         MY LAST ARCH
+    productName:         ALCI
     shortProductName:    ALCI
     version:             2023.01.1
     shortVersion:        2023.01.1
