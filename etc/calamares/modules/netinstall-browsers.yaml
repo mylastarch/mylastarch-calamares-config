@@ -1,5 +1,5 @@
-- name: "Browsers"
-  description: "Browsers"
+- name: "browsers"
+  description: "browsers"
   hidden: false
   selected: false
   critical: false
