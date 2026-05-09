@@ -1,11 +1,12 @@
-- name: "browsers"
-  description: "browsers"
+- name: "Browsers"
+  description: "Browsers"
   hidden: false
   selected: false
   critical: false
   expanded: true
   packages:
-    - firefos
+    - firefox
     - falkon
     - vivaldi
+    - chrome
    
