@@ -125,7 +125,7 @@ strings:
     shortProductName:    MYLASTARCH
     version:             RC1
     shortVersion:        RC1
-    versionedName:       LOKI
+    versionedName:       MY LAST ARCH
     shortVersionedName:  LOKI
     bootloaderEntryName: MYLASTARCH
 
