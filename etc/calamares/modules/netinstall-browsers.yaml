@@ -1,0 +1,13 @@
+- name: "Browsers"
+  description: "Browsers"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  pre-install: sudo pacman -Sy
+  packages:
+    - firefox
+    - falkon
+    - vivaldi
+    - chrome
+   
