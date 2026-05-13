@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         MY LAST ARCH
-    shortProductName:    MYLASTARCH
-    version:             RC1
-    shortVersion:        RC1
-    versionedName:       MY LAST ARCH
-    shortVersionedName:  LOKI
-    bootloaderEntryName: MYLASTARCH
+    productName:         ALCI
+    shortProductName:    ALCI
+    version:             2023.01.1
+    shortVersion:        2023.01.1
+    versionedName:       ALCI
+    shortVersionedName:  ALCI
+    bootloaderEntryName: Arch
 
 # These images are loaded from the branding module directory.
 #
