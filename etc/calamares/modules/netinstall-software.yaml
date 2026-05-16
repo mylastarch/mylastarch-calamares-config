@@ -1,0 +1,93 @@
+- name: "Default"
+  description: "Default"
+  hidden: true
+  selected: true
+  critical: false
+  expanded: false
+  pre-install: sudo pacman -Sy
+  packages:
+    - termite
+    - scrot
+- name: "Browsers"
+  description: "Browsers"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  pre-install: sudo pacman -Sy
+  packages:
+    - firefox
+    - falkon
+    - vivaldi
+    - chromium
+- name: "Shells"
+  description: "Shells"
+  hidden: false
+  selected: false
+  critical: true
+  expanded: true
+  pre-install: sudo pacman -Sy
+  subgroups:
+    - name: "Bash"
+      description: "Bourne Again Shell"
+      selected: true
+      packages:
+        - bash
+        - bash-completion
+    - name: "Zsh"
+      description: "Zee shell, boss"
+      packages:
+        - zsh
+        - zsh-completion
+- name: "Kernel"
+  description: "Kernel"
+  hidden: false
+  selected: true
+  critical: true
+  immutable: true
+  pre-install: sudo pacman -Sy
+  packages:
+    - linux
+- name: Communications
+  description: "Communications Software"
+  pre-install: sudo pacman -Sy
+  packages:
+    - diccord
+    - telegram
+- name: Editors
+  description: "Editing"
+  selected: false
+  pre-install: sudo pacman -Sy
+  packages:
+    - emacs
+    - nano
+    - name: kate
+      description: KDE's text Editor
+- name: IDE
+  description: "Development Environment"
+  selected: false
+  pre-install: sudo pacman -Sy
+  subgroups:
+    - name: Emacs
+      description: LISP environment Editor
+      subgroups:
+      - name: Bogus
+        description: Bogus
+        hidden: true
+        selected: true
+        packages:
+          - emacs
+      - name: KDevelop
+        description: KDE's C++, PHP and Python Environment
+        subgroups:
+      - name: Bogus
+        description: Bogus
+        hidden: true
+        selected: true
+        packages:
+          - kdevelop
+
+
+
+
+   
