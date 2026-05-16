@@ -6,7 +6,7 @@
   expanded: false
   pre-install: sudo pacman -Sy
   packages:
-    - termite
+#    - termite
     - scrot
 - name: "Browsers"
   description: "Browsers"
@@ -52,7 +52,7 @@
   description: "Communications Software"
   pre-install: sudo pacman -Sy
   packages:
-    - diccord
+    - discord
     - telegram
 - name: Editors
   description: "Editing"
