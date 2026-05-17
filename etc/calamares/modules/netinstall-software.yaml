@@ -3,13 +3,11 @@
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
-    - cheese
-    - font-manager-git
     - galculator
     - gpick
-    - flameshot-git
+    - flameshot
     - liferea
     - mediainfo-gui
     - mcomix
@@ -22,12 +20,24 @@
     - arcolinux-plank-themes-git
     - screenkey-git
     - variety
+- name: "Browsers"
+  description: "Browsers"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  pre-install: sudo pacman -Sy
+  packages:
+    - firefox
+    - falkon
+    - vivaldi
+    - chromium
 - name: "Conky"
   description: "Conky and conky collection"
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
     - arcolinux-conky-collection-git
     - arcolinux-pipemenus-git
@@ -38,7 +48,7 @@
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
     - gitahead
     - gitg
@@ -50,7 +60,7 @@
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
     - bitwarden
     - enpass-bin
@@ -61,7 +71,7 @@
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
     - torbrowser-launcher
     - privoxy
