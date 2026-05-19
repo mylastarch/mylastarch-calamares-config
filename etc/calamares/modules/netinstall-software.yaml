@@ -4,7 +4,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - galculator
     - gpick
@@ -27,7 +26,6 @@
   selected: false
   critical: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - firefox
     - falkon
@@ -39,7 +37,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - arcolinux-conky-collection-git
     - arcolinux-pipemenus-git
@@ -51,7 +48,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - gitahead
     - gitg
@@ -64,7 +60,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - bitwarden
     - enpass-bin
@@ -76,7 +71,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - torbrowser-launcher
     - privoxy
@@ -86,7 +80,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - virtualbox
     - virtualbox-host-dkms
@@ -98,7 +91,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - virtualbox
     - virtualbox-host-dkms
@@ -110,7 +102,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - open-vm-tools
     - vmware-workstation
@@ -121,7 +112,6 @@
   hidden: false
   selected: false
   expanded: false
-  pre-install: sudo pacman -Sy
   packages:
     - qemu-base
     - qemu-full
