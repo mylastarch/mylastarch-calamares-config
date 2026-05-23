@@ -4,6 +4,7 @@
   hidden: false
   selected: false
   expanded: false
+  pre-install: sudo pacman -Syyu
   packages:
     - galculator
     - gpick
