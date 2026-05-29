@@ -125,9 +125,9 @@ strings:
     shortProductName:    MYLASTARCH
     version:             RC1
     shortVersion:        RC1
-    versionedName:       MY LAST ARCH
-    shortVersionedName:  MY LAST ARCH
-    bootloaderEntryName: MY LAST ARCH
+    versionedName:       mylastarch
+    #shortVersionedName:  MY LAST ARCH
+    bootloaderEntryName: mylastarch
 
 # These images are loaded from the branding module directory.
 #
