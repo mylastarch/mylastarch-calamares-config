@@ -78,7 +78,7 @@ windowPlacement: center
 # to putting the sidebar on the left. Also valid is "qml,top".
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
-sidebar: widget,right
+sidebar: widget,left
 
 # Kind of navigation (button panel on the bottom).
 #  - "widget" or unset, use traditional navigation
@@ -125,8 +125,8 @@ strings:
     shortProductName:    MYLASTARCH
     version:             RC1
     shortVersion:        RC1
-    versionedName:       mylastarch
-    #shortVersionedName:  MY LAST ARCH
+    versionedName:       MY LAST ARCH
+    #shortVersionedName: MY LAST ARCH
     bootloaderEntryName: mylastarch
 
 # These images are loaded from the branding module directory.
