@@ -8,7 +8,7 @@
  *
  */
 
-import QtQuick 2.0;
+import QtQuick 2.15;
 import calamares.slideshow 1.0;
 
 Presentation
@@ -37,6 +37,7 @@ Presentation
         id: background1
         source: "1-welcometo.png"
         width: parent.width; height: parent.height
+	horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent

@@ -39,7 +39,7 @@ welcomeExpandingLogo:   true
 #  - "normal" or unset, expand as needed, use *windowSize*
 #  - "fullscreen", start as large as possible, ignore *windowSize*
 #  - "noexpand", don't expand automatically, use *windowSize*
-windowExpanding:    fullscreen
+windowExpanding: normal
 
 # Size of Calamares window, expressed as w,h. Both w and h
 # may be either pixels (suffix px) or font-units (suffix em).
@@ -48,7 +48,7 @@ windowExpanding:    fullscreen
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 1024px,676px
+windowSize: 800px,520px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -79,15 +79,7 @@ windowPlacement: center
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
 sidebar: qml,bottom
-
-# Kind of navigation (button panel on the bottom).
-#  - "widget" or unset, use traditional navigation
-#  - "none", hide it entirely
-#  - "qml", use calamares-navigation.qml from branding folder
-# In addition, you **may** specify a side, separated by a comma,
-# from the kind. The same sides are valid as for *sidebar*,
-# except the default is *bottom*.
-navigation: widget
+navigation: qml
 
 
 ### STRINGS, IMAGES AND COLORS
