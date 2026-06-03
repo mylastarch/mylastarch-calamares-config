@@ -39,7 +39,7 @@ welcomeExpandingLogo:   true
 #  - "normal" or unset, expand as needed, use *windowSize*
 #  - "fullscreen", start as large as possible, ignore *windowSize*
 #  - "noexpand", don't expand automatically, use *windowSize*
-windowExpanding:    normal
+windowExpanding:    fullscreen
 
 # Size of Calamares window, expressed as w,h. Both w and h
 # may be either pixels (suffix px) or font-units (suffix em).
@@ -126,7 +126,7 @@ strings:
     version:             RC1
     shortVersion:        RC1
     versionedName:       MY LAST ARCH
-    #shortVersionedName: MY LAST ARCH
+    shortVersionedName: MY LAST ARCH
     bootloaderEntryName: mylastarch
 
 # These images are loaded from the branding module directory.
@@ -177,7 +177,8 @@ images:
 style:
    SidebarBackground:    "#292F34"
    SidebarText:          "#FFFFFF"
-
+   SidebarTextCurrent:       "#1f1f1f"   # text închis pe accent deschis
+   SidebarBackgroundCurrent: "#0a84ff"   # accent albastru tip macOS
 ### SLIDESHOW
 #
 # The slideshow is displayed during execution steps (e.g. when the
@@ -223,3 +224,4 @@ slideshowAPI: 2
 uploadServer :
     type :    "fiche"
     url :     "http://termbin.com:9999"
+    sizeLimit : -1
