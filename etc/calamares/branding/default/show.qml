@@ -34,6 +34,31 @@ Presentation
     anchors.verticalCenterOffset: 0
 
     Image {
+        id: first
+        source: "builtonarch.png"
+        width: parent.width; height: parent.height
+    horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+        }
+
+    Text {
+        anchors.horizontalCenter: background1.horizontalCenter
+        anchors.top: background1.bottom
+        text: "Built on Arch Linux"
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+        }
+    }
+
+    Slide {
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
         id: background1
         source: "1-welcometo.png"
         width: parent.width; height: parent.height
