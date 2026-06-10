@@ -1,0 +1,44 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#1D9E75"/>
+  <rect x="0" y="0" width="6" height="382" fill="#1D9E75"/>
+  <g transform="translate(52, 60)">
+    <polygon points="38,0 76,66 0,66" fill="none" stroke="#1D9E75" stroke-width="3.5" stroke-linejoin="round"/>
+    <polygon points="38,18 62,60 14,60" fill="#1D9E75" opacity="0.18"/>
+  </g>
+  <text x="148" y="88" font-family="sans-serif" font-size="38" font-weight="700" fill="#0F6E56" letter-spacing="-1">MyLastArch</text>
+  <text x="149" y="116" font-family="sans-serif" font-size="18" font-weight="400" fill="#888780" letter-spacing="3">RC1  ·  KDE Plasma Edition</text>
+  <line x1="52" y1="138" x2="628" y2="138" stroke="#D3D1C7" stroke-width="0.75"/>
+  <text x="340" y="172" font-family="sans-serif" font-size="17" font-weight="400" fill="#444441" text-anchor="middle">Your last stop on the road to a perfect Linux desktop.</text>
+  <text x="340" y="196" font-family="sans-serif" font-size="14" font-weight="400" fill="#888780" text-anchor="middle">Built on Arch Linux · Powered by KDE Plasma · Ready for everyday use</text>
+  <g transform="translate(52, 222)">
+    <rect x="0" y="0" width="86" height="28" rx="14" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.75"/>
+    <text x="43" y="19" font-family="sans-serif" font-size="12" fill="#0F6E56" text-anchor="middle">Vivaldi</text>
+    <rect x="96" y="0" width="100" height="28" rx="14" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.75"/>
+    <text x="146" y="19" font-family="sans-serif" font-size="12" fill="#185FA5" text-anchor="middle">LibreOffice Suite</text>
+    <rect x="206" y="0" width="100" height="28" rx="14" fill="#FBEAF0" stroke="#ED93B1" stroke-width="0.75"/>
+    <text x="256" y="19" font-family="sans-serif" font-size="12" fill="#993556" text-anchor="middle">Strawberry Music</text>
+    <rect x="316" y="0" width="74" height="28" rx="14" fill="#FAEEDA" stroke="#FAC775" stroke-width="0.75"/>
+    <text x="353" y="19" font-family="sans-serif" font-size="12" fill="#854F0B" text-anchor="middle">Variety</text>
+    <rect x="400" y="0" width="84" height="28" rx="14" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.75"/>
+    <text x="442" y="19" font-family="sans-serif" font-size="12" fill="#3C3489" text-anchor="middle">Alacritty</text>
+    <rect x="494" y="0" width="82" height="28" rx="14" fill="#EAF3DE" stroke="#97C459" stroke-width="0.75"/>
+    <text x="535" y="19" font-family="sans-serif" font-size="12" fill="#3B6D11" text-anchor="middle">Sublime Text</text>
+  </g>
+  <line x1="52" y1="276" x2="628" y2="276" stroke="#D3D1C7" stroke-width="0.75"/>
+  <g transform="translate(52, 300)">
+    <text x="0" y="0" font-family="sans-serif" font-size="22" font-weight="700" fill="#1D9E75">Arch</text>
+    <text x="0" y="20" font-family="sans-serif" font-size="12" fill="#888780">Base system</text>
+    <line x1="120" y1="-8" x2="120" y2="28" stroke="#D3D1C7" stroke-width="0.75"/>
+    <text x="138" y="0" font-family="sans-serif" font-size="22" font-weight="700" fill="#185FA5">Plasma 6</text>
+    <text x="138" y="20" font-family="sans-serif" font-size="12" fill="#888780">Desktop environment</text>
+    <line x1="310" y1="-8" x2="310" y2="28" stroke="#D3D1C7" stroke-width="0.75"/>
+    <text x="328" y="0" font-family="sans-serif" font-size="22" font-weight="700" fill="#854F0B">Rolling</text>
+    <text x="328" y="20" font-family="sans-serif" font-size="12" fill="#888780">Release model</text>
+    <line x1="468" y1="-8" x2="468" y2="28" stroke="#D3D1C7" stroke-width="0.75"/>
+    <text x="486" y="0" font-family="sans-serif" font-size="22" font-weight="700" fill="#993556">Beginner</text>
+    <text x="486" y="20" font-family="sans-serif" font-size="12" fill="#888780">Friendly</text>
+  </g>
+  <rect x="0" y="366" width="680" height="16" fill="#1D9E75" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#0F6E56" text-anchor="middle" letter-spacing="1">MYLASTARCH RC1  ·  ARCH LINUX  ·  KDE PLASMA</text>
+</svg>
