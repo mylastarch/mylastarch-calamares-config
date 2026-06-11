@@ -1,44 +1,351 @@
-<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
-  <rect width="680" height="382" fill="#F8F9FC"/>
-  <rect x="0" y="0" width="680" height="4" fill="#1D9E75"/>
-  <rect x="0" y="0" width="6" height="382" fill="#1D9E75"/>
-  <g transform="translate(52, 60)">
-    <polygon points="38,0 76,66 0,66" fill="none" stroke="#1D9E75" stroke-width="3.5" stroke-linejoin="round"/>
-    <polygon points="38,18 62,60 14,60" fill="#1D9E75" opacity="0.18"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="179.91667mm"
+   height="101.07083mm"
+   viewBox="0 0 179.91667 101.07083"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-5.1443691,-11.354397)">
+    <rect
+       width="179.91667"
+       height="101.07083"
+       fill="#f8f9fc"
+       id="rect1"
+       x="5.1443691"
+       y="11.354397"
+       style="stroke-width:0.264583" />
+    <rect
+       x="5.1443691"
+       y="11.354397"
+       width="179.91667"
+       height="1.0583333"
+       fill="#1d9e75"
+       id="rect2"
+       style="stroke-width:0.264583" />
+    <rect
+       x="5.1443691"
+       y="11.354397"
+       width="1.5875"
+       height="101.07083"
+       fill="#1d9e75"
+       id="rect3"
+       style="stroke-width:0.264583" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,18.902707,27.229396)"
+       id="g4">
+      <polygon
+         points="0,66 38,0 76,66 "
+         fill="none"
+         stroke="#1d9e75"
+         stroke-width="3.5"
+         stroke-linejoin="round"
+         id="polygon3" />
+      <polygon
+         points="14,60 38,18 62,60 "
+         fill="#1d9e75"
+         opacity="0.18"
+         id="polygon4" />
+    </g>
+    <text
+       x="44.302711"
+       y="34.63773"
+       font-family="sans-serif"
+       font-size="10.0542px"
+       font-weight="700"
+       fill="#0f6e56"
+       letter-spacing="-1"
+       id="text4"
+       style="stroke-width:0.264583">MyLastArch</text>
+    <text
+       x="44.567299"
+       y="42.046062"
+       font-family="sans-serif"
+       font-size="4.7625px"
+       font-weight="400"
+       fill="#888780"
+       letter-spacing="3"
+       id="text5"
+       style="stroke-width:0.264583">RC1 · KDE Plasma Edition</text>
+    <line
+       x1="18.9027"
+       y1="47.866898"
+       x2="171.30272"
+       y2="47.866898"
+       stroke="#d3d1c7"
+       stroke-width="0.75"
+       id="line5" />
+    <text
+       x="95.102722"
+       y="56.862732"
+       font-family="sans-serif"
+       font-size="4.49792px"
+       font-weight="400"
+       fill="#444441"
+       text-anchor="middle"
+       id="text6"
+       style="stroke-width:0.264583">Your last stop on the road to a perfect Linux desktop.</text>
+    <text
+       x="95.102722"
+       y="63.21273"
+       font-family="sans-serif"
+       font-size="3.70417px"
+       font-weight="400"
+       fill="#888780"
+       text-anchor="middle"
+       id="text7"
+       style="stroke-width:0.264583">Built on Arch Linux · Powered by KDE Plasma · Ready for everyday use</text>
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,18.902707,70.091896)"
+       id="g14">
+      <rect
+         x="0"
+         y="0"
+         width="56"
+         height="22"
+         rx="11"
+         fill="#e1f5ee"
+         stroke="#5dcaa5"
+         stroke-width="0.75"
+         id="rect7" />
+      <text
+         x="28"
+         y="15"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#0f6e56"
+         text-anchor="middle"
+         id="text8">Vivaldi</text>
+      <rect
+         x="64"
+         y="0"
+         width="78"
+         height="22"
+         rx="11"
+         fill="#e6f1fb"
+         stroke="#85b7eb"
+         stroke-width="0.75"
+         id="rect8" />
+      <text
+         x="103"
+         y="15"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#185fa5"
+         text-anchor="middle"
+         id="text9">LibreOffice</text>
+      <rect
+         x="149"
+         y="0"
+         width="73"
+         height="22"
+         rx="11"
+         fill="#fbeaf0"
+         stroke="#ed93b1"
+         stroke-width="0.75"
+         id="rect9" />
+      <text
+         x="186"
+         y="15"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#993556"
+         text-anchor="middle"
+         id="text10">Strawberry</text>
+      <rect
+         x="229"
+         y="0"
+         width="56"
+         height="22"
+         rx="11"
+         fill="#faeeda"
+         stroke="#fac775"
+         stroke-width="0.75"
+         id="rect10" />
+      <text
+         x="257"
+         y="15"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#854f0b"
+         text-anchor="middle"
+         id="text11">Variety</text>
+      <rect
+         x="292"
+         y="0"
+         width="68"
+         height="22"
+         rx="11"
+         fill="#eeedfe"
+         stroke="#afa9ec"
+         stroke-width="0.75"
+         id="rect11" />
+      <text
+         x="326"
+         y="15"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#3c3489"
+         text-anchor="middle"
+         id="text12">Alacritty</text>
+      <rect
+         x="367"
+         y="0"
+         width="84"
+         height="22"
+         rx="11"
+         fill="#eaf3de"
+         stroke="#97c459"
+         stroke-width="0.75"
+         id="rect12" />
+      <text
+         x="409"
+         y="15"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#3b6d11"
+         text-anchor="middle"
+         id="text13">Sublime Text</text>
+      <rect
+         x="458"
+         y="0"
+         width="78"
+         height="22"
+         rx="11"
+         fill="#e3effd"
+         stroke="#7ab8f5"
+         stroke-width="0.75"
+         id="rect13" />
+      <text
+         x="497"
+         y="15"
+         font-family="sans-serif"
+         font-size="10px"
+         fill="#185fa5"
+         text-anchor="middle"
+         id="text14">Thunderbird</text>
+    </g>
+    <line
+       x1="18.9027"
+       y1="79.61689"
+       x2="171.30272"
+       y2="79.61689"
+       stroke="#d3d1c7"
+       stroke-width="0.75"
+       id="line14" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,18.902707,84.908563)"
+       id="g22">
+      <text
+         x="0"
+         y="0"
+         font-family="sans-serif"
+         font-size="22px"
+         font-weight="700"
+         fill="#1d9e75"
+         id="text15">Arch</text>
+      <text
+         x="0"
+         y="20"
+         font-family="sans-serif"
+         font-size="12px"
+         fill="#888780"
+         id="text16">Base system</text>
+      <line
+         x1="120"
+         y1="-8"
+         x2="120"
+         y2="28"
+         stroke="#d3d1c7"
+         stroke-width="0.75"
+         id="line16" />
+      <text
+         x="138"
+         y="0"
+         font-family="sans-serif"
+         font-size="22px"
+         font-weight="700"
+         fill="#185fa5"
+         id="text17">Plasma 6</text>
+      <text
+         x="138"
+         y="20"
+         font-family="sans-serif"
+         font-size="12px"
+         fill="#888780"
+         id="text18">Desktop environment</text>
+      <line
+         x1="310"
+         y1="-8"
+         x2="310"
+         y2="28"
+         stroke="#d3d1c7"
+         stroke-width="0.75"
+         id="line18" />
+      <text
+         x="328"
+         y="0"
+         font-family="sans-serif"
+         font-size="22px"
+         font-weight="700"
+         fill="#854f0b"
+         id="text19">Rolling</text>
+      <text
+         x="328"
+         y="20"
+         font-family="sans-serif"
+         font-size="12px"
+         fill="#888780"
+         id="text20">Release model</text>
+      <line
+         x1="468"
+         y1="-8"
+         x2="468"
+         y2="28"
+         stroke="#d3d1c7"
+         stroke-width="0.75"
+         id="line20" />
+      <text
+         x="486"
+         y="0"
+         font-family="sans-serif"
+         font-size="22px"
+         font-weight="700"
+         fill="#993556"
+         id="text21">Beginner</text>
+      <text
+         x="486"
+         y="20"
+         font-family="sans-serif"
+         font-size="12px"
+         fill="#888780"
+         id="text22">Friendly</text>
+    </g>
+    <rect
+       x="5.1443691"
+       y="108.19189"
+       width="179.91667"
+       height="4.2333331"
+       fill="#1d9e75"
+       opacity="0.12"
+       id="rect22"
+       style="stroke-width:0.264583" />
+    <text
+       x="95.102722"
+       y="111.36689"
+       font-family="sans-serif"
+       font-size="2.64583px"
+       fill="#0f6e56"
+       text-anchor="middle"
+       letter-spacing="1"
+       id="text23"
+       style="stroke-width:0.264583">MYLASTARCH RC1 · ARCH LINUX · KDE PLASMA</text>
   </g>
-  <text x="148" y="88" font-family="sans-serif" font-size="38" font-weight="700" fill="#0F6E56" letter-spacing="-1">MyLastArch</text>
-  <text x="149" y="116" font-family="sans-serif" font-size="18" font-weight="400" fill="#888780" letter-spacing="3">RC1  ·  KDE Plasma Edition</text>
-  <line x1="52" y1="138" x2="628" y2="138" stroke="#D3D1C7" stroke-width="0.75"/>
-  <text x="340" y="172" font-family="sans-serif" font-size="17" font-weight="400" fill="#444441" text-anchor="middle">Your last stop on the road to a perfect Linux desktop.</text>
-  <text x="340" y="196" font-family="sans-serif" font-size="14" font-weight="400" fill="#888780" text-anchor="middle">Built on Arch Linux · Powered by KDE Plasma · Ready for everyday use</text>
-  <g transform="translate(52, 222)">
-    <rect x="0" y="0" width="86" height="28" rx="14" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.75"/>
-    <text x="43" y="19" font-family="sans-serif" font-size="12" fill="#0F6E56" text-anchor="middle">Vivaldi</text>
-    <rect x="96" y="0" width="100" height="28" rx="14" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.75"/>
-    <text x="146" y="19" font-family="sans-serif" font-size="12" fill="#185FA5" text-anchor="middle">LibreOffice Suite</text>
-    <rect x="206" y="0" width="100" height="28" rx="14" fill="#FBEAF0" stroke="#ED93B1" stroke-width="0.75"/>
-    <text x="256" y="19" font-family="sans-serif" font-size="12" fill="#993556" text-anchor="middle">Strawberry Music</text>
-    <rect x="316" y="0" width="74" height="28" rx="14" fill="#FAEEDA" stroke="#FAC775" stroke-width="0.75"/>
-    <text x="353" y="19" font-family="sans-serif" font-size="12" fill="#854F0B" text-anchor="middle">Variety</text>
-    <rect x="400" y="0" width="84" height="28" rx="14" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.75"/>
-    <text x="442" y="19" font-family="sans-serif" font-size="12" fill="#3C3489" text-anchor="middle">Alacritty</text>
-    <rect x="494" y="0" width="82" height="28" rx="14" fill="#EAF3DE" stroke="#97C459" stroke-width="0.75"/>
-    <text x="535" y="19" font-family="sans-serif" font-size="12" fill="#3B6D11" text-anchor="middle">Sublime Text</text>
-  </g>
-  <line x1="52" y1="276" x2="628" y2="276" stroke="#D3D1C7" stroke-width="0.75"/>
-  <g transform="translate(52, 300)">
-    <text x="0" y="0" font-family="sans-serif" font-size="22" font-weight="700" fill="#1D9E75">Arch</text>
-    <text x="0" y="20" font-family="sans-serif" font-size="12" fill="#888780">Base system</text>
-    <line x1="120" y1="-8" x2="120" y2="28" stroke="#D3D1C7" stroke-width="0.75"/>
-    <text x="138" y="0" font-family="sans-serif" font-size="22" font-weight="700" fill="#185FA5">Plasma 6</text>
-    <text x="138" y="20" font-family="sans-serif" font-size="12" fill="#888780">Desktop environment</text>
-    <line x1="310" y1="-8" x2="310" y2="28" stroke="#D3D1C7" stroke-width="0.75"/>
-    <text x="328" y="0" font-family="sans-serif" font-size="22" font-weight="700" fill="#854F0B">Rolling</text>
-    <text x="328" y="20" font-family="sans-serif" font-size="12" fill="#888780">Release model</text>
-    <line x1="468" y1="-8" x2="468" y2="28" stroke="#D3D1C7" stroke-width="0.75"/>
-    <text x="486" y="0" font-family="sans-serif" font-size="22" font-weight="700" fill="#993556">Beginner</text>
-    <text x="486" y="20" font-family="sans-serif" font-size="12" fill="#888780">Friendly</text>
-  </g>
-  <rect x="0" y="366" width="680" height="16" fill="#1D9E75" opacity="0.12"/>
-  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#0F6E56" text-anchor="middle" letter-spacing="1">MYLASTARCH RC1  ·  ARCH LINUX  ·  KDE PLASMA</text>
 </svg>

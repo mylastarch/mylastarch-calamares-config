@@ -272,6 +272,30 @@ Slide {
         }
     }
 
+    Slide {
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: tenth
+        source: "10-thunderbird.svg"
+        width: parent.width; height: parent.height
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+        }
+
+    Text {
+        anchors.horizontalCenter: tenth.horizontalCenter
+        anchors.top: tenth.bottom
+        text: "Thunderbird"
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+        }
+    }
+
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
