@@ -81,20 +81,19 @@ Rectangle {
             }
         }
 
-        // ── Bottom row: progress bar + file count ───────────────────
+// ── Bottom row: progress bar + file count ───────────────────
         RowLayout {
             Layout.fillWidth: true;
             Layout.preferredHeight: 24;
             Layout.leftMargin: 10;
             Layout.rightMargin: 10;
             Layout.bottomMargin: 4;
-            visible: InstallationCounter.visible;
 
             ProgressBar {
                 id: progressBar;
                 Layout.fillWidth: true;
                 Layout.alignment: Qt.AlignVCenter;
-                value: InstallationCounter.progress;
+                value: Calamares.progress;
                 from: 0.0;
                 to: 1.0;
             }
@@ -104,8 +103,6 @@ Rectangle {
                 Layout.alignment: Qt.AlignVCenter;
                 color: Branding.styleString( Branding.SidebarText );
                 font.pointSize: 8;
-                text: InstallationCounter.message;
+                text: Calamares.progressMessage;
             }
         }
-    }
-}
