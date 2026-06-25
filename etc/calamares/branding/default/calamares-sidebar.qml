@@ -105,4 +105,6 @@ Rectangle {
                 font.pointSize: 8;
                 text: Calamares.progressMessage;
             }
-        }
+        }       // closes RowLayout (progress row)
+    }           // closes ColumnLayout
+}               // closes Rectangle
