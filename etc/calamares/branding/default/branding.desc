@@ -118,7 +118,7 @@ strings:
     version:             RC1-1
     shortVersion:        RC1-1
     versionedName:       MY LAST ARCH
-    shortVersionedName: MY LAST ARCH
+    shortVersionedName:  MY LAST ARCH
     bootloaderEntryName: mylastarch
 
 # These images are loaded from the branding module directory.
