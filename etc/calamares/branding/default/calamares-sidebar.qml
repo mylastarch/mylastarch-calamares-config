@@ -93,7 +93,7 @@ Rectangle {
                 id: progressBar;
                 Layout.fillWidth: true;
                 Layout.alignment: Qt.AlignVCenter;
-                value: Calamares.progress;
+                value: self.report_progress;
                 from: 0.0;
                 to: 1.0;
             }

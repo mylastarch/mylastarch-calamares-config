@@ -3,7 +3,7 @@
 # Syntax is YAML 1.2
 ---
 type:       "job"
-name:       "unpackfs"
+name:       "unpackfs1"
 interface:  "python"
 script:     "main.py"
 requiredModules: [ mount ]
