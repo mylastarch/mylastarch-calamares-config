@@ -103,7 +103,7 @@ Rectangle {
                 Layout.alignment: Qt.AlignVCenter;
                 color: Branding.styleString( Branding.SidebarText );
                 font.pointSize: 8;
-                text: Calamares.progressMessage;
+                text: Calamares.jobStatus;
             }
         }       // closes RowLayout (progress row)
     }           // closes ColumnLayout
