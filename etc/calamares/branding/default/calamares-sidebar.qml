@@ -89,11 +89,11 @@ Rectangle {
             Layout.rightMargin: 10;
             Layout.bottomMargin: 4;
 
-            ProgressBar {
+ProgressBar {
                 id: progressBar;
                 Layout.fillWidth: true;
                 Layout.alignment: Qt.AlignVCenter;
-                value: self.report_progress;
+                value: Calamares.progress;
                 from: 0.0;
                 to: 1.0;
             }
@@ -102,9 +102,9 @@ Rectangle {
                 Layout.leftMargin: 10;
                 Layout.alignment: Qt.AlignVCenter;
                 color: Branding.styleString( Branding.SidebarText );
-                font.pointSize: 7;
-                text: "pm:" + Calamares.progressMessage + " js:" + Calamares.jobStatus + " s:" + Calamares.status;
+                font.pointSize: 8;
+                text: Calamares.status;
             }
-        }       // closes RowLayout (progress row)
-    }           // closes ColumnLayout
-}               // closes Rectangle
+        }
+    }
+}
