@@ -89,11 +89,11 @@ Rectangle {
             Layout.rightMargin: 10;
             Layout.bottomMargin: 4;
 
-ProgressBar {
+            ProgressBar {
                 id: progressBar;
                 Layout.fillWidth: true;
                 Layout.alignment: Qt.AlignVCenter;
-                value: Calamares.progress;
+                value: ViewManager.progressFraction;
                 from: 0.0;
                 to: 1.0;
             }
@@ -103,8 +103,6 @@ ProgressBar {
                 Layout.alignment: Qt.AlignVCenter;
                 color: Branding.styleString( Branding.SidebarText );
                 font.pointSize: 8;
-                text: Calamares.status;
+                text: ViewManager.prettyStatus;
             }
         }
-    }
-}
