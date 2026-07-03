@@ -79,7 +79,7 @@ windowPlacement: center
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
 sidebar: qml,bottom
-# navigation: qml
+navigation: widget
 
 
 ### STRINGS, IMAGES AND COLORS
