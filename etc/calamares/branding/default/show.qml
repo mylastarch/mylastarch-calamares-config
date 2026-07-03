@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 10000
+        interval: 11000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
