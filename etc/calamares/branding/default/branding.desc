@@ -79,7 +79,6 @@ windowPlacement: center
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
 sidebar: widget
-navigation: widget
 
 
 ### STRINGS, IMAGES AND COLORS
@@ -169,8 +168,8 @@ images:
 style:
    SidebarBackground:    "#292F34"
    SidebarText:          "#FFFFFF"
-   SidebarTextCurrent:       "#1f1f1f"   # text închis pe accent deschis
-   SidebarBackgroundCurrent: "#0a84ff"   # accent albastru tip macOS
+   SidebarTextHighlight: "#0a84ff"
+   SidebarSelect:        "#1f1f1f"
 ### SLIDESHOW
 #
 # The slideshow is displayed during execution steps (e.g. when the
