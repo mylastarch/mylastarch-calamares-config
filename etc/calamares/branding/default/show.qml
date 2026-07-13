@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 11000
+        interval: 12000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -279,7 +279,7 @@ Slide {
 
     Image {
         id: tenth
-        source: "10-thunderbird.svg"
+        source: "10-arch-update.svg"
         width: parent.width; height: parent.height
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
@@ -289,6 +289,54 @@ Slide {
     Text {
         anchors.horizontalCenter: tenth.horizontalCenter
         anchors.top: tenth.bottom
+        text: "Arch-Update"
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+        }
+    }
+
+    Slide {
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: eleventh
+        source: "11-archlinux-tweak-tool.svg"
+        width: parent.width; height: parent.height
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+        }
+
+    Text {
+        anchors.horizontalCenter: eleventh.horizontalCenter
+        anchors.top: eleventh.bottom
+        text: "ArchLinux Tweak Tool"
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+        }
+    }
+
+    Slide {
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: twelfth
+        source: "12-thunderbird.svg"
+        width: parent.width; height: parent.height
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+        }
+
+    Text {
+        anchors.horizontalCenter: twelfth.horizontalCenter
+        anchors.top: twelfth.bottom
         text: "Thunderbird"
         wrapMode: Text.WordWrap
         width: presentation.width
