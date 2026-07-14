@@ -22,13 +22,13 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 12000
+        interval: 11000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
     }
 
-Slide {
+    Slide {
 
     anchors.fill: parent
     anchors.verticalCenterOffset: 0
@@ -37,7 +37,7 @@ Slide {
         id: background1
         source: "1-welcometo.png"
         width: parent.width; height: parent.height
-    horizontalAlignment: Image.AlignCenter
+        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -53,7 +53,6 @@ Slide {
         }
     }
 
-
     Slide {
 
     anchors.fill: parent
@@ -63,7 +62,7 @@ Slide {
         id: first
         source: "01-welcome.svg"
         width: parent.width; height: parent.height
-    horizontalAlignment: Image.AlignCenter
+        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -79,7 +78,6 @@ Slide {
         }
     }
 
-    
     Slide {
 
     anchors.fill: parent
@@ -92,7 +90,7 @@ Slide {
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
-    	}
+        }
 
     Text {
         anchors.horizontalCenter: second.horizontalCenter
@@ -101,7 +99,7 @@ Slide {
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
-    	}
+        }
     }
 
     Slide {
@@ -169,7 +167,7 @@ Slide {
     Text {
         anchors.horizontalCenter: fifth.horizontalCenter
         anchors.top: fifth.bottom
-        text: "Libre Office"
+        text: "LibreOffice Suite"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -241,7 +239,7 @@ Slide {
     Text {
         anchors.horizontalCenter: eighth.horizontalCenter
         anchors.top: eighth.bottom
-        text: "Alacritty terminal"
+        text: "Alacritty Terminal"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -265,7 +263,7 @@ Slide {
     Text {
         anchors.horizontalCenter: ninth.horizontalCenter
         anchors.top: ninth.bottom
-        text: "Text Editor"
+        text: "Sublime Text Editor"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -343,7 +341,6 @@ Slide {
         horizontalAlignment: Text.Center
         }
     }
-
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
