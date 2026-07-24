@@ -6,12 +6,8 @@ welcomeExpandingLogo:   true
 
 windowExpanding: normal
 
-windowSize: 800px,700px
+windowSize: 600px,800px
 
-# Placement of Calamares window. Either "center" or "free".
-# Whether "center" actually works does depend on the window
-# manager in use (and only makes sense if you're not using
-# *windowExpanding* set to "fullscreen").
 windowPlacement: center
 
 ### PANELS CONFIGURATION
