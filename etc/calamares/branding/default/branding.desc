@@ -6,17 +6,9 @@ welcomeExpandingLogo:   true
 
 windowExpanding: normal
 
-windowSize: 600px,800px
+windowSize: 500px,800px
 
 windowPlacement: center
-
-### PANELS CONFIGURATION
-#
-# Calamares has a main content area, and two panels (navigation
-# and progress / sidebar). The panels can be controlled individually,
-# or switched off. If both panels are switched off, the layout of
-# the main content area loses its margins, on the assumption that
-# you're doing something special.
 
 # Kind of sidebar (panel on the left, showing progress).
 #  - "widget" or unset, use traditional sidebar (logo, items)
