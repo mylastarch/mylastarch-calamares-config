@@ -37,20 +37,12 @@ Presentation
         id: background1
         source: "1-welcometo.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: background1.horizontalCenter
-        anchors.top: background1.bottom
-        text: "Welcome to"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -62,20 +54,12 @@ Presentation
         id: first
         source: "01-welcome.svg"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: first.horizontalCenter
-        anchors.top: first.bottom
-        text: "Overview"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -87,19 +71,12 @@ Presentation
         id: second
         source: "02-arch-linux.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: second.horizontalCenter
-        anchors.top: second.bottom
-        text: "Built on Arch Linux"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -111,19 +88,12 @@ Presentation
         id: third
         source: "03-kde-plasma.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: third.horizontalCenter
-        anchors.top: third.bottom
-        text: "KDE Plasma"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -135,19 +105,12 @@ Presentation
         id: fourth
         source: "04-vivaldi.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: fourth.horizontalCenter
-        anchors.top: fourth.bottom
-        text: "Vivaldi"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -159,19 +122,12 @@ Presentation
         id: fifth
         source: "05-libreoffice.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: fifth.horizontalCenter
-        anchors.top: fifth.bottom
-        text: "LibreOffice Suite"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -183,19 +139,12 @@ Presentation
         id: sixth
         source: "06-strawberry.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: sixth.horizontalCenter
-        anchors.top: sixth.bottom
-        text: "Strawberry Music Player"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -207,19 +156,12 @@ Presentation
         id: seventh
         source: "07-variety.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: seventh.horizontalCenter
-        anchors.top: seventh.bottom
-        text: "Variety Wallpaper Changer"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -231,19 +173,12 @@ Presentation
         id: eighth
         source: "08-alacritty.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: eighth.horizontalCenter
-        anchors.top: eighth.bottom
-        text: "Alacritty Terminal"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -255,19 +190,12 @@ Presentation
         id: ninth
         source: "09-sublime-text.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: ninth.horizontalCenter
-        anchors.top: ninth.bottom
-        text: "Sublime Text Editor"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -279,19 +207,12 @@ Presentation
         id: tenth
         source: "10-arch-update.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: tenth.horizontalCenter
-        anchors.top: tenth.bottom
-        text: "Arch-Update"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -303,19 +224,12 @@ Presentation
         id: eleventh
         source: "11-archlinux-tweak-tool.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: eleventh.horizontalCenter
-        anchors.top: eleventh.bottom
-        text: "ArchLinux Tweak Tool"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -327,19 +241,12 @@ Presentation
         id: twelfth
         source: "12-thunderbird.svg"
         width: parent.width; height: parent.height
-        verticalAlignment: Image.AlignTop
-        fillMode: Image.Stretch
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
         anchors.fill: parent
         }
 
-    Text {
-        anchors.horizontalCenter: twelfth.horizontalCenter
-        anchors.top: twelfth.bottom
-        text: "Thunderbird"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-        }
     }
 
     // When this slideshow is loaded as a V1 slideshow, only

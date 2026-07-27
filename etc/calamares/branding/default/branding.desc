@@ -6,7 +6,7 @@ welcomeExpandingLogo:   true
 
 windowExpanding: normal
 
-windowSize: 500px,800px
+windowSize: 1000px,650px
 
 windowPlacement: center
 
@@ -95,8 +95,8 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "squid.png"
-    productLogo:         "squid.png"
+    productIcon:         "squid.svg"
+    productLogo:         "squid.svg"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "alci.png"
 
