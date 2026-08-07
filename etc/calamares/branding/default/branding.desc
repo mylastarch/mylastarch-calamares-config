@@ -4,7 +4,7 @@ welcomeStyleCalamares:   false
 
 welcomeExpandingLogo:   true
 
-windowExpanding: normal
+windowExpanding: fullscreen
 
 windowSize: 1000px,650px
 
@@ -58,10 +58,10 @@ sidebar: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         MY LAST ARCH Rc2
+    productName:         MY LAST ARCH 1.0.0
     shortProductName:    MYLASTARCH
-    version:             Rc2
-    shortVersion:        Rc2
+    version:             1.0.0
+    shortVersion:        1.0.0
     versionedName:       MY LAST ARCH
     shortVersionedName:  MY LAST ARCH
     bootloaderEntryName: mylastarch

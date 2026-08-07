@@ -12,9 +12,9 @@ The package installs configuration under `/etc/calamares` and the
 - `etc/calamares/branding/default/` — runtime branding and slideshow assets
 - `usr/local/bin/calamares_polkit` — privileged Calamares launcher
 
-## Rc2 integration
+## 1.0.0 integration
 
-The Rc2 ArchISO package list includes:
+The 1.0.0 ArchISO package list includes:
 
 - `calamares`
 - `mylastarch-calamares-config`
@@ -23,13 +23,13 @@ The Rc2 ArchISO package list includes:
 
 The display-manager module prefers Plasma Login Manager and then tries SDDM.
 
-The following target-system scripts are supplied by the Rc2 ArchISO and are
+The following target-system scripts are supplied by the 1.0.0 ArchISO and are
 required by the Calamares shellprocess modules:
 
 - `/usr/local/bin/mylastarch-before`
 - `/usr/local/bin/mylastarch-final`
 
-Their executable permissions are defined in the Rc2 `profiledef.sh`.
+Their executable permissions are defined in the 1.0.0 `profiledef.sh`.
 
 ## Installation behavior
 
@@ -49,7 +49,7 @@ After changing this repository:
 3. Confirm every asset referenced by `branding.desc` and `show.qml` exists.
 4. Run `bash -n` on shell scripts.
 5. Run `git diff --check`.
-6. Build the Rc2 ISO and test Calamares in both BIOS and UEFI virtual machines.
+6. Build the 1.0.0 ISO and test Calamares in both BIOS and UEFI virtual machines.
 
 Only runtime assets should be placed in the branding directory. Editable
 artwork sources, archives, and obsolete variants should be stored elsewhere.
