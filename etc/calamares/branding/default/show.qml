@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 11000
+        interval: 15000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -240,6 +240,23 @@ Presentation
     Image {
         id: twelfth
         source: "12-thunderbird.svg"
+        width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignHCenter
+        verticalAlignment: Image.AlignVCenter
+        fillMode: Image.PreserveAspectFit
+        anchors.fill: parent
+        }
+
+    }
+
+    Slide {
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: thirteenth
+        source: "13-masterpdfeditor.svg"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignHCenter
         verticalAlignment: Image.AlignVCenter
